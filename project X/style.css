@@ -153,3 +153,69 @@ body {
   text-align: center;
   padding-top: 20px;
 }
+.portfolio-block {
+  margin-top: 200px;
+}
+.portfolio-block h1 {
+  font-family: Anton;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.portfolio-content {
+  margin-top: 36px;
+  display: flex;
+
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+.portfolio-item {
+  width: 360px;
+  border-radius: 10px;
+  padding: 30px 30px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  margin: 20px;
+}
+.portfolio-item p {
+  margin-top: 23px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+.portfolio-small-item {
+  display: flex;
+  margin-top: 21px;
+}
+.portfolio-small-block {
+  margin-left: 5px;
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  padding: 5px 8px;
+  background: linear-gradient(0deg, #e9dffc, #e9dffc),
+    linear-gradient(0deg, #be9ff6, #be9ff6);
+  color: rgba(120, 77, 199, 1);
+  border-radius: 12px;
+  border: 1px solid rgba(190, 159, 246, 1);
+}
+.figma-community {
+  margin-top: 40px;
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  background: rgba(41, 41, 41, 1);
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 82px;
+}
