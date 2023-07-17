@@ -167,13 +167,11 @@ body {
 .portfolio-content {
   margin-top: 36px;
   display: flex;
-
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-right: auto;
-  margin-left: auto;
 }
 .portfolio-item {
-  width: 360px;
+  /* width: 25%; */
   border-radius: 10px;
   padding: 30px 30px;
   border: 1px solid rgba(0, 0, 0, 1);
@@ -218,4 +216,51 @@ body {
   color: #ffffff;
   text-align: center;
   padding: 12px 82px;
+}
+/* .portfolio-item img {
+  width: 300px;
+  height: 300px;
+} */
+.skills-block {
+  margin-top: 200px;
+}
+.skills-block h1 {
+  font-family: Anton;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.skills-item {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 300px;
+  border: 1px solid rgba(115, 115, 115, 1);
+  padding: 40px;
+  margin: 10px;
+}
+.eclipse img {
+  width: 220px;
+  height: 220px;
+}
+.ecipse-text {
+  margin-left: 20px;
+}
+.ecipse-text p {
+  padding-top: 20px;
+  font-family: Gotham;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  height: 80px;
+  width: 400px;
+}
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
